@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* PSEUDOCLASES */
+        p:hover{
+            color: rgb(228, 228, 56);
+        }
+        p:nth-child(2){
+            color:rgb(23, 143, 29)
+        }
+        /* PSEUDOELEMENTOS */
+        p::first-letter{
+            color:paleturquoise
+        }
+        p::before{
+            content:"🐍";
+        }
+        ::placeholder{
+            color:rgb(171, 243, 55);
+        }
+    </style>
+</head>
+<body>
+    <p> Hola a todos!  </p>
+    <div>
+        <p> Soy Fabricio </p>
+        <p> Ingeniero Agrónomo </p>
+        <p> Estudiante de programación </p>
+    </div>
+    <input type="text" name="" id="" placeholder="Fabricio González">
+</body>
+</html>

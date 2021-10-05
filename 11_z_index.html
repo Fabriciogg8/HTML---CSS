@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: absolute;
+            background-color: aquamarine;
+        }
+        .one{
+            z-index: 4;
+        }
+        .two{
+            z-index: 3;
+        }
+        .red{
+            width: 20px;
+            height: 20px;
+            background: red;
+            z-index: 5;
+        }
+        .blue{
+            width: 20px;
+            height: 20px;
+            background: rgb(0, 17, 255);
+            z-index: 4;
+        }
+        .yellow{
+            width: 20px;
+            height: 20px;
+            background: rgb(255, 238, 0);
+            z-index: 6;
+            top: -6px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="one"> Fabricio </div>
+    <div class="two"> Gonzalez </div> -->
+    <section>
+        <div class="red"> Red </div>
+        <div class="blue"> Blue
+            <div class="yellow"> Yellow </div>
+        </div>
+    </section>
+</body>
+</html>
